@@ -34,8 +34,8 @@ namespace DiscordRPCGenerator
             {
                 client.SetPresence(new RichPresence()
                 {
-                    State = settings.State,
-                    Details = settings.Details,
+                    State = settings.SettingsOptional.State,
+                    Details = settings.SettingsOptional.Details,
 
                     Assets = assets,
 

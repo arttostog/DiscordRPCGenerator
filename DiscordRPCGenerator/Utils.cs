@@ -48,8 +48,8 @@ namespace DiscordRPCGenerator
             return new Party()
             {
                 ID = settings.SettingsOptional.Party_Id,
-                Size = settings.Party_Size_CurrentSize,
-                Max = settings.Party_Size_MaxSize
+                Size = settings.SettingsOptional.Party_Size_CurrentSize,
+                Max = settings.SettingsOptional.Party_Size_MaxSize
             };
         }
     }
